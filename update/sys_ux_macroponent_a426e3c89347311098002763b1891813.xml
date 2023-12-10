@@ -51,21 +51,37 @@
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
-                                "preset": {
-                                    "controllerElementId": "form_1",
-                                    "disabledEventTargetIds": [
-                                        
-                                    ],
-                                    "id": "fb915bf1bad80b3097b5b2c76b35b215"
-                                },
+                                "preset": null,
                                 "propertyValues": {
+                                    "alt": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "fit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fill"
+                                    },
+                                    "height": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "position": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "center center"
+                                    },
                                     "sources": {
                                         "type": "JSON_LITERAL",
                                         "value": [
-                                            {
-                                                "srcset": "needit_logo_green.png"
-                                            }
+                                            
                                         ]
+                                    },
+                                    "src": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "/now-image-placeholder.jpg"
+                                    },
+                                    "width": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
                                     }
                                 },
                                 "slot": null,
@@ -214,6 +230,187 @@
                 "type": "JSON_LITERAL",
                 "value": "fullheight"
             }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "next_needIt_row",
+        "elementLabel": "Next NeedIt Row",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "next_needIt",
+                    "elementLabel": "Next NeedIt",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "4d537db98a05adaf55f9e219c50d1358",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "my_next_needIt_record",
+                                "elementLabel": "My Next NeedIt Record",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "headerImageItem": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "headingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "hideTagsValue": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "primaryValue": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "My Next NeedIt record"
+                                        }
+                                    },
+                                    "recordTags": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "secondaryItems": {
+                                        "binding": {
+                                            "address": [
+                                                "next_needIt_form",
+                                                "nowRecordCommonHeader",
+                                                "secondaryItems"
+                                            ]
+                                        },
+                                        "type": "DATA_OUTPUT_BINDING"
+                                    },
+                                    "subHeadingValue": {
+                                        "binding": {
+                                            "address": [
+                                                "next_needIt_form",
+                                                "nowRecordCommonHeader",
+                                                "primaryValue"
+                                            ]
+                                        },
+                                        "type": "DATA_OUTPUT_BINDING"
+                                    },
+                                    "sysId": {
+                                        "binding": {
+                                            "address": [
+                                                "my_next_needIt",
+                                                "results",
+                                                "1",
+                                                "sys_id",
+                                                "value"
+                                            ]
+                                        },
+                                        "type": "DATA_OUTPUT_BINDING"
+                                    },
+                                    "table": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "x_58872_needit_needit"
+                                    },
+                                    "workspaceConfigId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "my_next_needIt_record",
+                                        "styles": {}
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "flex-direction": "column"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": {
+                        "controllerElementId": "filter_and_sort_1",
+                        "disabledEventTargetIds": [
+                            
+                        ],
+                        "id": "0628144843dd211017b739603ab8f270"
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "next_needIt",
+                            "styles": {
+                                "width": "90%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "align-items": "center",
+                        "flex-direction": "column"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": {
+            "controllerElementId": "filter_and_sort_1",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "0628144843dd211017b739603ab8f270"
         },
         "slot": null,
         "styles": null
@@ -2347,17 +2544,19 @@
                                                 "type": "JSON_LITERAL",
                                                 "value": null
                                             },
-                                            "preset": {
-                                                "controllerElementId": "form_1",
-                                                "disabledEventTargetIds": [
-                                                    "clpljpermaaaaccffcjxfhnzuewgu"
-                                                ],
-                                                "id": "2c9b775ba59d59482acacfd67c793517"
-                                            },
+                                            "preset": null,
                                             "propertyValues": {
+                                                "configAria": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
                                                 "disabled": {
                                                     "type": "JSON_LITERAL",
                                                     "value": false
+                                                },
+                                                "icon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
                                                 },
                                                 "label": {
                                                     "type": "TRANSLATION_LITERAL",
@@ -2366,6 +2565,18 @@
                                                         "comment": "",
                                                         "message": "Active NeedIts"
                                                     }
+                                                },
+                                                "size": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "tooltipContent": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Enter a label"
+                                                },
+                                                "variant": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "secondary"
                                                 }
                                             },
                                             "slot": null,
@@ -2419,17 +2630,19 @@
                                                 "type": "JSON_LITERAL",
                                                 "value": null
                                             },
-                                            "preset": {
-                                                "controllerElementId": "form_1",
-                                                "disabledEventTargetIds": [
-                                                    "clpljpermaaaaccffcjxfhnzuewgu"
-                                                ],
-                                                "id": "2c9b775ba59d59482acacfd67c793517"
-                                            },
+                                            "preset": null,
                                             "propertyValues": {
+                                                "configAria": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
                                                 "disabled": {
                                                     "type": "JSON_LITERAL",
                                                     "value": false
+                                                },
+                                                "icon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
                                                 },
                                                 "label": {
                                                     "type": "TRANSLATION_LITERAL",
@@ -2438,6 +2651,18 @@
                                                         "comment": "",
                                                         "message": "Approval Requested NeedIts"
                                                     }
+                                                },
+                                                "size": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "tooltipContent": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Enter a label"
+                                                },
+                                                "variant": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "secondary"
                                                 }
                                             },
                                             "slot": null,
@@ -2491,17 +2716,19 @@
                                                 "type": "JSON_LITERAL",
                                                 "value": null
                                             },
-                                            "preset": {
-                                                "controllerElementId": "form_1",
-                                                "disabledEventTargetIds": [
-                                                    "clpljpermaaaaccffcjxfhnzuewgu"
-                                                ],
-                                                "id": "2c9b775ba59d59482acacfd67c793517"
-                                            },
+                                            "preset": null,
                                             "propertyValues": {
+                                                "configAria": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {}
+                                                },
                                                 "disabled": {
                                                     "type": "JSON_LITERAL",
                                                     "value": false
+                                                },
+                                                "icon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
                                                 },
                                                 "label": {
                                                     "type": "TRANSLATION_LITERAL",
@@ -2510,6 +2737,18 @@
                                                         "comment": "",
                                                         "message": "Closed NeedIts"
                                                     }
+                                                },
+                                                "size": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "tooltipContent": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "Enter a label"
+                                                },
+                                                "variant": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "secondary"
                                                 }
                                             },
                                             "slot": null,
@@ -3150,57 +3389,108 @@
     },
     {
         "definition": {
-            "id": "029f04e053610110ac9bddeeff7b1294",
-            "type": "CONTROLLER"
+            "id": "b997a84053021010cbc2ddeeff7b1228",
+            "type": "COMPOSITE"
         },
         "dependencies": {},
-        "elementId": "form_1",
-        "elementLabel": "Form 1",
+        "elementId": "my_next_needIt",
+        "elementLabel": "My Next NeedIt",
         "eventMappings": [
             
         ],
         "inputValues": {
-            "activityLogs": {
+            "encodedQuery": {
+                "type": "JSON_LITERAL",
+                "value": "u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state!=3^u_when_needed&gt;javascript:gs.endOfToday()"
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1000"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL"
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "sys_id,short_description,u_when_needed,number"
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_58872_needit_needit"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "dc6e87a5232200100e4bc50947bf654b",
+            "type": "CLIENT_STATE"
+        },
+        "dependencies": {},
+        "elementId": "next_needIt_form",
+        "elementLabel": "Next NeedIt Form",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "actionConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "actionLayoutId": {
                 "type": "JSON_LITERAL",
                 "value": ""
             },
             "detailsContext": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "fields": {
-                "type": "JSON_LITERAL",
-                "value": ""
+                "binding": {
+                    "address": [
+                        "activityLogs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
             },
             "forcedViewName": {
                 "type": "JSON_LITERAL",
                 "value": ""
             },
-            "inputActionLayoutId": {
+            "formParams": {
+                "type": "JSON_LITERAL",
+                "value": "{}"
+            },
+            "headerConfigId": {
                 "type": "JSON_LITERAL",
                 "value": ""
             },
-            "inputExtraParams": {
+            "highlightedValueConfigId": {
                 "type": "JSON_LITERAL",
                 "value": ""
             },
-            "inputQuery": {
+            "oneExtendConfig": {
                 "type": "JSON_LITERAL",
                 "value": ""
             },
-            "inputSysId": {
-                "type": "JSON_LITERAL",
-                "value": "0ac1de3719b63110958b5a8484313b7a"
-            },
-            "inputTable": {
-                "type": "JSON_LITERAL",
-                "value": "task"
-            },
-            "screen": {
+            "query": {
                 "type": "JSON_LITERAL",
                 "value": ""
             },
-            "selectedTabIndex": {
+            "ribbonConfigId": {
                 "type": "JSON_LITERAL",
                 "value": ""
             },
@@ -3212,18 +3502,33 @@
                 "type": "JSON_LITERAL",
                 "value": false
             },
-            "userPrefs": {
+            "showActivityStreamInDetails": {
                 "type": "JSON_LITERAL",
-                "value": ""
+                "value": false
             },
-            "view": {
+            "sysId": {
                 "binding": {
                     "address": [
-                        "view"
-                    ],
-                    "category": "app"
+                        "my_next_needIt",
+                        "results",
+                        "2",
+                        "sys_id",
+                        "value"
+                    ]
                 },
-                "type": "CONTEXT_BINDING"
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_58872_needit_needit"
+            },
+            "view": {
+                "type": "JSON_LITERAL",
+                "value": "Default view"
+            },
+            "viewRuleConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
             }
         },
         "readEvaluationMode": "EAGER"
@@ -3312,6 +3617,12 @@
                 }
             },
             {
+                "element_id": "next_needIt_row",
+                "styles": {
+                    "width": "100%"
+                }
+            },
+            {
                 "element_id": "report_row",
                 "styles": {}
             },
@@ -3361,6 +3672,9 @@
   "message" : "Legal",
   "comment" : ""
 }, {
+  "message" : "My Next NeedIt record",
+  "comment" : ""
+}, {
   "message" : "NeedIt",
   "comment" : ""
 }, {
@@ -3407,14 +3721,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-07 04:10:21</sys_created_on>
         <sys_id>a426e3c89347311098002763b1891813</sys_id>
-        <sys_mod_count>112</sys_mod_count>
+        <sys_mod_count>134</sys_mod_count>
         <sys_name>NeedIt Admin home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_a426e3c89347311098002763b1891813</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-09 11:52:52</sys_updated_on>
+        <sys_updated_on>2023-12-10 07:31:46</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=a426e3c89347311098002763b1891813"/>
 </record_update>
