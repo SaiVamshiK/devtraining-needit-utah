@@ -29,34 +29,32 @@
         "sortCategoriesArray": null
     },
     "029f04e053610110ac9bddeeff7b1294": {
-        "activityLogs": "",
-        "detailsContext": "",
-        "fields": "",
-        "forcedViewName": "",
-        "inputActionLayoutId": "",
-        "inputExtraParams": "",
-        "inputQuery": "",
-        "inputSysId": "0ac1de3719b63110958b5a8484313b7a",
         "inputTable": "task",
+        "inputSysId": "751f4d2401873110958ba072f6c3fbd0",
+        "inputQuery": "",
+        "forcedViewName": "",
+        "detailsContext": "",
+        "activityLogs": "",
+        "inputExtraParams": "",
+        "fields": "",
         "screen": "",
         "selectedTabIndex": "",
-        "shouldDisplayFormErrorsAsPageAlerts": false,
-        "shouldSuppressGlobalEvents": false,
         "userPrefs": ""
-    }
+    },
+    "365c0e890767111017b703767cd3008e": {}
 }</macroponent_config>
         <screen display_value="NeedIt Admin home">ec26e3c89347311098002763b1891815</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-07 04:10:21</sys_created_on>
         <sys_id>a826e3c89347311098002763b1891818</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_a826e3c89347311098002763b1891818</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-08 14:18:12</sys_updated_on>
+        <sys_updated_on>2023-12-10 11:43:12</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>
